@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="utf-8">
-  <title>Blog - MoTri.VN</title>
+  <title>Chi tiết Blog - MoTri.VN</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap & Themify Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -115,40 +115,74 @@
       <div class="row">
         <div class="col-md-8">
           <ul class="list-inline custom-breadcrumb mb-2">
-            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="index.html">Trang chủ</a></li>
-            <li class="list-inline-item text-white h3 font-secondary nasted">Blog</li>
+            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="blog.html">Blog</a></li>
+            <li class="list-inline-item text-white h3 font-secondary nasted">Chi tiết</li>
           </ul>
-          <p class="text-lighten mb-0">Tổng hợp các bài viết, tin tức, chia sẻ kinh nghiệm học tập, kỹ năng và hoạt động nổi bật của MoTri.VN.</p>
+          <p class="text-lighten mb-0">Các bài viết chia sẻ kinh nghiệm, kiến thức, kỹ năng và hoạt động nổi bật của MoTri.VN.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Danh sách blog -->
+  <!-- Chi tiết blog -->
+  <section class="section-sm bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-4">
+          <img src="images/blog/blog-single.jpg" alt="blog-thumb" class="img-fluid w-100">
+        </div>
+        <div class="col-12">
+          <ul class="list-inline">
+            <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">Tác giả:</span>MoTri Team</li>
+            <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">16/05/2025</li>
+            <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-book mr-2"></i>Đọc 289</li>
+            <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-share mr-2"></i>289</li>
+            <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><a class="text-light" href="#"><i class="ti-comments mr-2"></i>265</a></li>
+          </ul>
+        </div>
+        <div class="col-12 mt-4">
+          <div class="border-bottom border-primary"></div>
+        </div>
+        <div class="col-12 mb-5">
+          <h2>Bí quyết học tập hiệu quả cho sinh viên hiện đại</h2>
+          <p>Khám phá các phương pháp học tập chủ động, quản lý thời gian và ứng dụng công nghệ để đạt kết quả tốt nhất. Bài viết này sẽ giúp bạn xây dựng thói quen học tập tích cực, tận dụng tối đa nguồn tài nguyên số và phát triển kỹ năng tự học.</p>
+          <p>Để học tập hiệu quả, sinh viên cần xác định mục tiêu rõ ràng, lập kế hoạch học tập hợp lý và thường xuyên đánh giá tiến độ. Việc sử dụng các công cụ hỗ trợ như ứng dụng quản lý thời gian, ghi chú số hóa và tham gia các nhóm học tập trực tuyến sẽ giúp bạn tiết kiệm thời gian và nâng cao hiệu quả tiếp thu kiến thức.</p>
+          <p>Hãy chủ động đặt câu hỏi, tìm kiếm tài liệu tham khảo và không ngại trao đổi với giảng viên, bạn bè khi gặp khó khăn. Việc duy trì động lực, nghỉ ngơi hợp lý và cân bằng giữa học tập - giải trí cũng rất quan trọng để đạt thành tích tốt.</p>
+        </div>
+        <!-- comment box -->
+        <div class="col-12">
+          <form action="#" class="row">
+            <div class="col-sm-6">
+              <input type="text" class="form-control mb-4" id="name" name="name" placeholder="Họ và tên" required>
+            </div>
+            <div class="col-sm-6">
+              <input type="email" class="form-control mb-4" id="mail" name="mail" placeholder="Email" required>
+            </div>
+            <div class="col-12">
+              <textarea name="comment" id="comment" class="form-control mb-4" placeholder="Bình luận..." required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" value="send" class="btn btn-primary">Gửi bình luận</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bài viết liên quan -->
   <section class="section">
     <div class="container">
       <div class="row">
-        <!-- Blog 1 -->
-        <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="col-12">
+          <h2 class="section-title">Bài viết liên quan</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- blog post 1 -->
+        <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
           <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/blog/blog1.png" alt="Post thumb">
-            <div class="card-body">
-              <ul class="list-inline mb-3">
-                <li class="list-inline-item mr-3 ml-0">16/05/2025</li>
-                <li class="list-inline-item mr-3 ml-0">Bởi MoTri Team</li>
-              </ul>
-              <a href="blog-single.html">
-                <h4 class="card-title">Bí quyết học tập hiệu quả cho sinh viên hiện đại</h4>
-              </a>
-              <p class="card-text">Khám phá các phương pháp học tập chủ động, quản lý thời gian và ứng dụng công nghệ để đạt kết quả tốt nhất.</p>
-              <a href="blog-single.html" class="btn btn-primary btn-sm">Đọc tiếp</a>
-            </div>
-          </div>
-        </article>
-        <!-- Blog 2 -->
-        <article class="col-lg-4 col-sm-6 mb-5">
-          <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/blog/blog2.png"  alt="Post thumb">
+            <img class="card-img-top rounded-0" src="images/blog/post-1.jpg" alt="Post thumb">
             <div class="card-body">
               <ul class="list-inline mb-3">
                 <li class="list-inline-item mr-3 ml-0">10/05/2025</li>
@@ -162,10 +196,10 @@
             </div>
           </div>
         </article>
-        <!-- Blog 3 -->
-        <article class="col-lg-4 col-sm-6 mb-5">
+        <!-- blog post 2 -->
+        <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
           <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/blog/blog3.png" alt="Post thumb">
+            <img class="card-img-top rounded-0" src="images/blog/post-2.jpg" alt="Post thumb">
             <div class="card-body">
               <ul class="list-inline mb-3">
                 <li class="list-inline-item mr-3 ml-0">01/05/2025</li>
@@ -179,7 +213,6 @@
             </div>
           </div>
         </article>
-        <!-- Thêm các bài viết khác nếu muốn -->
       </div>
     </div>
   </section>
@@ -223,6 +256,16 @@
             <li class="mb-3"><a class="text-color" href="#">Trạng thái phát hành</a></li>
           </ul>
         </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="mb-5">ĐỀ XUẤT</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#">WordPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">LearnPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">WooCommerce</a></li>
+            <li class="mb-3"><a class="text-color" href="#">bbPress</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="copyright py-4 bg-footer">
       <div class="container">
