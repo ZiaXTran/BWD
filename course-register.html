@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký khóa học - MoTri.VN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Thanh trên cùng -->
+    <div class="top-header py-2">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div>
+          <a href="tel:+443003030266"><strong>GỌI</strong> 0823690239</a>
+          <a href="#" class="ms-3"><i class="ti-facebook"></i></a>
+          <a href="#" class="ms-2"><i class="ti-twitter-alt"></i></a>
+          <a href="https://github.com/ZiaXTran" class="ms-2"><i class="ti-github"></i></a>
+          <a href="#" class="ms-2"><i class="ti-instagram"></i></a>
+        </div>
+        <div>
+          <a href="notice.html" class="me-3">Thông báo</a>
+          <a href="research.html" class="me-3">Nghiên cứu</a>
+          <a href="scholarship.html" class="me-3">Học bổng</a>
+          <a href="#" class="me-3" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Đăng ký</a>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html" style="font-size: 2rem;">MoTri.VN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+            <li class="nav-item"><a class="nav-link" href="course.html">Khóa học</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Sự kiện</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="teacher.html">Giảng viên</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Title -->
+    <section class="page-title-section overlay" style="background-image: url('images/page-title.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="list-inline custom-breadcrumb mb-2">
+                        <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="index.html">Trang chủ</a></li>
+                        <li class="list-inline-item text-white h3 font-secondary nasted">Đăng ký khóa học</li>
+                    </ul>
+                    <p class="text-lighten mb-0">Điền thông tin để đăng ký khóa học tại MoTri.VN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Đăng ký khóa học -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="bg-white p-4 p-md-5 shadow rounded-4 border">
+                        <h3 class="mb-4 text-center text-primary">Đăng ký khóa học</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="fullname" class="form-label">Họ và tên</label>
+                                <input type="text" class="form-control" id="fullname" placeholder="Nhập họ và tên" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Nhập email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Số điện thoại</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Nhập số điện thoại" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="course" class="form-label">Chọn khóa học</label>
+                                <select class="form-select" id="course" required>
+                                    <option value="">-- Chọn khóa học --</option>
+                                    <option>Nhiếp ảnh</option>
+                                    <option>Lập trình cơ bản</option>
+                                    <option>Kỹ năng sống</option>
+                                    <option>Khóa học lập trình nâng cao</option>
+                                    <option>Thiết kế đồ họa cơ bản</option>
+                                    <option>Lập trình nhúng IoT</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="note" class="form-label">Ghi chú (nếu có)</label>
+                                <textarea class="form-control" id="note" rows="3" placeholder="Ghi chú thêm"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Gửi đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+            <span class="logo-footer" style="font-size: 2rem; font-weight: bold; color: #fff; display: inline-block; margin-bottom: 24px;">MoTri.VN</span>
+            <ul class="list-unstyled">
+              <li class="mb-2">470 Đ.Trần Đại Nghĩa, Hòa Hải, Ngũ Hành Sơn, Đà Nẵng 550000</li>
+              <li class="mb-2">+1 (2) 345 6789</li>
+              <li class="mb-2">contact@motri.vn</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+            <h4 class="mb-5">CÔNG TY</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a class="text-color" href="about.html">Về chúng tôi</a></li>
+              <li class="mb-3"><a class="text-color" href="teacher.html">Giáo viên</a></li>
+              <li class="mb-3"><a class="text-color" href="contact.html">Liên hệ</a></li>
+              <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+            <h4 class="mb-5">LIÊN KẾT</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a class="text-color" href="course.html">Khóa học</a></li>
+              <li class="mb-3"><a class="text-color" href="events.html">Sự kiện</a></li>
+              <li class="mb-3"><a class="text-color" href="notice.html">Thông báo</a></li>
+              <li class="mb-3"><a class="text-color" href="scholarship.html">Học bổng</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+            <h4 class="mb-5">HỖ TRỢ</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a class="text-color" href="#">Diễn đàn</a></li>
+              <li class="mb-3"><a class="text-color" href="#">Tài liệu</a></li>
+              <li class="mb-3"><a class="text-color" href="#">Ngôn ngữ</a></li>
+              <li class="mb-3"><a class="text-color" href="#">Trạng thái phát hành</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright py-4 bg-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-7 text-sm-left text-center">
+              <p class="mb-0">&copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Thiết kế & phát triển bởi MoTri Team
+              </p>
+            </div>
+            <div class="col-sm-5 text-sm-right text-center">
+              <a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a>
+              <a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a>
+              <a class="d-inline-block p-2" href="#"><i class="ti-github text-primary"></i></a>
+              <a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Tự động chọn khóa học nếu có tham số trên URL
+      const params = new URLSearchParams(window.location.search);
+      const course = params.get('course');
+      if(course) {
+        const select = document.getElementById('course');
+        if(select) {
+          for(let i=0; i<select.options.length; i++) {
+            if(select.options[i].text === course) {
+              select.selectedIndex = i;
+              break;
+            }
+          }
+        }
+      }
+    </script>
+</body>
+</html>

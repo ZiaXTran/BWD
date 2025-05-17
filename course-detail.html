@@ -4,32 +4,279 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi tiết khóa học - MoTri.VN</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<section class="container py-5">
-    <h2 class="text-center mb-4">Khóa học lập trình</h2>
-    <div class="row">
-        <div class="col-md-8">
-            <h3>Giới thiệu khóa học</h3>
-            <p>Khóa học giúp bạn làm quen với các khái niệm cơ bản của lập trình và giúp bạn xây dựng các ứng dụng thực tế.</p>
-            <h4>Chương trình học:</h4>
-            <ul>
-                <li>Giới thiệu về lập trình</li>
-                <li>Ngôn ngữ lập trình Python</li>
-                <li>Xây dựng dự án thực tế</li>
-            </ul>
-            <a href="learn.html" class="btn btn-primary">Bắt đầu học</a>
-        </div>
-        <div class="col-md-4">
-            <h3>Thông tin giảng viên</h3>
-            <p>Giảng viên: Nguyễn Văn A</p>
-            <p>Kinh nghiệm: 5 năm giảng dạy lập trình</p>
-        </div>
+  <!-- Thanh trên cùng -->
+  <div class="top-header py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <a href="tel:+443003030266"><strong>GỌI</strong> 0823690239</a>
+        <a href="#" class="ms-3"><i class="ti-facebook"></i></a>
+        <a href="#" class="ms-2"><i class="ti-twitter-alt"></i></a>
+        <a href="https://github.com/ZiaXTran" class="ms-2"><i class="ti-github"></i></a>
+        <a href="#" class="ms-2"><i class="ti-instagram"></i></a>
+      </div>
+      <div>
+        <a href="notice.html" class="me-3">Thông báo</a>
+        <a href="research.html" class="me-3">Nghiên cứu</a>
+        <a href="scholarship.html" class="me-3">Học bổng</a>
+        <a href="#" class="me-3" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Đăng ký</a>
+      </div>
     </div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navigation">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html" style="font-size: 2rem;">MoTri.VN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="course.html">Khóa học</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Sự kiện</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="teacher.html">Giảng viên</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Page Title -->
+<section class="page-title-section overlay" style="background-image: url('images/courses/course-1.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb mb-2">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="course.html">Khóa học</a></li>
+          <li class="list-inline-item text-white h3 font-secondary nasted">Nhiếp ảnh</li>
+        </ul>
+        <p class="text-lighten mb-0">Khóa học nhiếp ảnh từ cơ bản đến nâng cao, dành cho mọi đối tượng.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Course Detail Section -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <img src="images/courses/course-1.jpg" class="img-fluid w-100 rounded-3" alt="Nhiếp ảnh">
+      </div>
+    </div>
+    <div class="row align-items-center mb-5">
+      <div class="col-xl-3 col-sm-6 mb-4 mb-xl-0">
+        <h2>Nhiếp ảnh</h2>
+      </div>
+      <div class="col-xl-6 col-12">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-book text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">THỜI LƯỢNG</h6>
+                <p class="mb-0">3 tháng</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-alarm-clock text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">SỐ BUỔI</h6>
+                <p class="mb-0">12 buổi</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-wallet text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">HỌC PHÍ</h6>
+                <p class="mb-0">2.000.000đ</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-3 text-sm-right text-left col-sm-6 mb-4 mb-xl-0">
+        <a href="course-register.html?course=Nhiếp%20ảnh" class="btn btn-primary">Đăng ký ngay</a>
+      </div>
+      <div class="col-12 mt-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h3>Giới thiệu khóa học</h3>
+        <p>Khóa học giúp bạn làm quen với các kỹ thuật nhiếp ảnh cơ bản đến nâng cao, sử dụng thành thạo máy ảnh, bố cục, ánh sáng và xử lý hậu kỳ. Học viên sẽ được thực hành thực tế và xây dựng portfolio cá nhân.</p>
+        <h4>Chương trình học:</h4>
+        <ul>
+          <li>Giới thiệu về nhiếp ảnh và thiết bị</li>
+          <li>Kỹ thuật chụp ảnh chân dung, phong cảnh, sự kiện</li>
+          <li>Bố cục và ánh sáng trong nhiếp ảnh</li>
+          <li>Xử lý hậu kỳ với phần mềm chuyên dụng</li>
+          <li>Dự án thực tế và xây dựng portfolio</li>
+        </ul>
+        <h4>Yêu cầu:</h4>
+        <ul>
+          <li>Đam mê nhiếp ảnh</li>
+          <li>Có máy ảnh hoặc smartphone</li>
+          <li>Cam kết tham gia đầy đủ các buổi học</li>
+        </ul>
+        <a href="learn.html" class="btn btn-outline-primary">Bắt đầu học</a>
+      </div>
+      <div class="col-md-4">
+        <h3>Thông tin giảng viên</h3>
+        <div class="d-flex align-items-center mb-3">
+          <img src="images/teacher.jpg" alt="Giảng viên" class="rounded-circle me-3" width="70" height="70">
+          <div>
+            <strong>Nguyễn Văn A</strong><br>
+            Nhiếp ảnh gia chuyên nghiệp<br>
+            Kinh nghiệm: 8 năm giảng dạy và thực chiến
+          </div>
+        </div>
+        <div>
+          <h6>Kết nối:</h6>
+          <a href="#" class="me-2"><i class="ti-facebook text-primary"></i></a>
+          <a href="#" class="me-2"><i class="ti-instagram text-primary"></i></a>
+          <a href="#" class="me-2"><i class="ti-github text-primary"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Khóa học liên quan -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">Khóa học liên quan</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- Khóa học liên quan 1 -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/courses/course-2.jpg" alt="course thumb">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2025</li>
+              <li class="list-inline-item"><a class="text-color" href="course-single.html">Lập trình</a></li>
+            </ul>
+            <a href="course-detail.html">
+              <h4 class="card-title">Lập trình cơ bản</h4>
+            </a>
+            <p class="card-text mb-4">Học lập trình từ đầu với các ngôn ngữ phổ biến nhất hiện nay.</p>
+            <a href="course-detail.html" class="btn btn-primary btn-sm">Xem chi tiết</a>
+          </div>
+        </div>
+      </div>
+      <!-- Khóa học liên quan 2 -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/courses/course-3.jpg" alt="course thumb">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2025</li>
+              <li class="list-inline-item"><a class="text-color" href="course-single.html">Kỹ năng sống</a></li>
+            </ul>
+            <a href="course-detail.html">
+              <h4 class="card-title">Kỹ năng sống</h4>
+            </a>
+            <p class="card-text mb-4">Phát triển kỹ năng mềm, giao tiếp, làm việc nhóm và quản lý thời gian.</p>
+            <a href="course-detail.html" class="btn btn-primary btn-sm">Xem chi tiết</a>
+          </div>
+        </div>
+      </div>
+      <!-- Khóa học liên quan 3 -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/courses/course-8.jpg" alt="course thumb">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>15-06-2025</li>
+              <li class="list-inline-item"><a class="text-color" href="#">Thiết kế</a></li>
+            </ul>
+            <a href="course-detail.html">
+              <h4 class="card-title">Thiết kế đồ họa cơ bản</h4>
+            </a>
+            <p class="card-text mb-4">Học cách sử dụng các công cụ thiết kế hiện đại và sáng tạo sản phẩm.</p>
+            <a href="course-detail.html" class="btn btn-primary btn-sm">Xem chi tiết</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+        <span class="logo-footer" style="font-size: 2rem; font-weight: bold; color: #fff; display: inline-block; margin-bottom: 24px;">MoTri.VN</span>
+        <ul class="list-unstyled">
+          <li class="mb-2">470 Đ.Trần Đại Nghĩa, Hòa Hải, Ngũ Hành Sơn, Đà Nẵng 550000</li>
+          <li class="mb-2">+1 (2) 345 6789</li>
+          <li class="mb-2">contact@motri.vn</li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="mb-5">CÔNG TY</h4>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-color" href="about.html">Về chúng tôi</a></li>
+          <li class="mb-3"><a class="text-color" href="teacher.html">Giáo viên</a></li>
+          <li class="mb-3"><a class="text-color" href="contact.html">Liên hệ</a></li>
+          <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="mb-5">LIÊN KẾT</h4>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-color" href="course.html">Khóa học</a></li>
+          <li class="mb-3"><a class="text-color" href="events.html">Sự kiện</a></li>
+          <li class="mb-3"><a class="text-color" href="notice.html">Thông báo</a></li>
+          <li class="mb-3"><a class="text-color" href="scholarship.html">Học bổng</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+        <h4 class="mb-5">HỖ TRỢ</h4>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-color" href="#">Diễn đàn</a></li>
+          <li class="mb-3"><a class="text-color" href="#">Tài liệu</a></li>
+          <li class="mb-3"><a class="text-color" href="#">Ngôn ngữ</a></li>
+          <li class="mb-3"><a class="text-color" href="#">Trạng thái phát hành</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Thiết kế & phát triển bởi MoTri Team</p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a>
+          <a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a>
+          <a class="d-inline-block p-2" href="#"><i class="ti-github text-primary"></i></a>
+          <a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
